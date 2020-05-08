@@ -1,0 +1,22 @@
+package com.baizhi.client_producer.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class User implements Serializable {
+    private String name;
+    private Integer age;
+<<<<<<< HEAD
+	private Integer type;
+	private Integer number;
+=======
+	private Integer id;
+	private Integer code;
+>>>>>>> 795bd0cdf38a8fe026854944cd5b2853a6c3c3d4
+}
