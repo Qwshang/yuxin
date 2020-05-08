@@ -15,4 +15,5 @@ public class User implements Serializable {
 	private Integer code;
 	private Integer number;
 	private Integer history;
+	private String remarks;
 }
