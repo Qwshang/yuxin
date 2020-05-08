@@ -14,4 +14,5 @@ public class User implements Serializable {
     private Integer age;
 	private Integer code;
 	private Integer number;
+	private Integer history;
 }
